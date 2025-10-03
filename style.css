@@ -259,6 +259,12 @@ section .btn {
     color: white;
 }
 
+.endereco {
+    color: white;
+    margin-bottom: 2px:
+}
+
+
 .footer {
     text-align: center;
     padding: 2rem;
