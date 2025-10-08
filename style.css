@@ -206,14 +206,14 @@ section .btn {
 .produtos .box-container .box {
     text-align: center;
     border: var(--border);
-    padding: 3rem;
+    padding: 1.5rem;
     cursor: pointer;
     background-color: var(--cinza);
     border-radius: 0.5rem;
 }
 
 .produtos .box-container .box img.cardapio {
-    border-radius: 50%;
+    border-radius: 100%;
     width: 15rem;
     height: 15rem;
     object-fit: cover;
@@ -260,8 +260,8 @@ section .btn {
 }
 
 .endereco {
-    color: white;
-    margin-bottom: 2px:
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -293,4 +293,10 @@ section .btn {
     background: var(--main-color);
     transform: translateY(0.3rem);
     transition: 0.5s;
+}
+
+@media screen and (max-width: 412px) {
+    h3 {
+        font-size: 50%;
+    }
 }
